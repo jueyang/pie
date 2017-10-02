@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h3, h4, h5, h6, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* site */
+
+body * {
+  box-sizing: border-box;
+  color:#444;
+}
+
+h1, h3 {
+	font-family:'Roboto Condensed', sans-serif;
+}
+h2 {
+	font-family:'Lobster',cursive;
+}
+p,a,li {
+	font-family:'EB Garamond',serif;
+}
+em {
+	font-family: 'IM Fell Double Pica', serif;
+}
+.cf:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.col12  {float:left; width:100%;}
+.col8	{float:left; width:66.67%;}
+.col6	{float:left; width:50%;}
+.col4	{float:left; width:33.33%;}
+.col2	{float:left; width:25%;}
+.clearl {clear:left;}
+.pad-top {padding-top:10%;}
+.center {float:none; margin:auto;}
+section {
+	min-height:100vh;
+	height:inherit;
+	position: relative;
+}
+section ul li {
+	float:left;
+	padding:40px 40px 0 0;
+}
+iframe {
+	width:100%;
+	height:294px;
+}
+img {
+	width:100%;
+}
+.day {
+	padding:10%;
+}
+.day h2 {
+	text-align: center;
+}
+.day ul li > * {
+	padding-right:5%;
+	padding:5px;
+	box-shadow: 2px 2px 2px 1px #eee;
+}
+.day ul li p {
+	padding:10px;
+	margin-top:0;
+	border:1px #eee;
+}
