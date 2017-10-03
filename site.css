@@ -50,11 +50,7 @@ body * {
   box-sizing: border-box;
   color:#444;
 }
-
-h1, h3 {
-	font-family:'Roboto Condensed', sans-serif;
-}
-h2 {
+h2, h3 {
 	font-family:'Lobster',cursive;
 }
 p,a,li {
@@ -91,6 +87,9 @@ iframe {
 }
 img {
 	width:100%;
+}
+.foreword img {
+	margin:20px 0;
 }
 .day {
 	padding:10%;
