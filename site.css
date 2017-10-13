@@ -56,9 +56,6 @@ h2, h3 {
 p,a,li {
 	font-family:'EB Garamond',serif;
 }
-em {
-	font-family: 'IM Fell Double Pica', serif;
-}
 .cf:after {
 	content: "";
 	display: table;
@@ -88,6 +85,9 @@ iframe {
 img {
 	width:100%;
 }
+.foreword {
+	letter-spacing: 0.7px;
+}
 .foreword img {
 	margin:20px 0;
 }
@@ -98,12 +98,11 @@ img {
 	text-align: center;
 }
 .day ul li > * {
-	padding-right:5%;
-	padding:5px;
-	box-shadow: 2px 2px 2px 1px #eee;
+	display:block;
+	box-shadow: 1px 1px 2px 1px #efefef;
 }
 .day ul li p {
-	padding:10px;
+	padding:20px;
 	margin-top:0;
-	border:1px #eee;
+	border:0.5px solid #fff;
 }
